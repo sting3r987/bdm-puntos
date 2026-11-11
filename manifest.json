@@ -1,0 +1,16 @@
+{
+  "name": "Base DM Puntos",
+  "short_name": "BDM Puntos",
+  "description": "Recibe un lugar compartido desde Google Maps y lo anota para Base DM",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#15181c",
+  "theme_color": "#15181c",
+  "icons": [{ "src": "icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }],
+  "share_target": {
+    "action": "./",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  }
+}
